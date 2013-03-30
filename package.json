@@ -1,0 +1,22 @@
+{
+  "name": "pfunc",
+  "version": "0.0.0",
+  "description": "A simple Promises/A+ compliant library for Node.js",
+  "main": "lib/pfunc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregspurrier/pfunc.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Greg Spurrier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "promises-aplus-tests": "*"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests test/test_adapter.js"
+  }
+}

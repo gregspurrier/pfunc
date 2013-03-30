@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/greg/.nvm/v0.8.22/bin/node',
+1 verbose cli   '/Users/greg/.nvm/v0.8.22/bin/npm',
+1 verbose cli   'test' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose read json /Users/greg/proj/pfunc/test/package.json
+5 error Error: ENOENT, open '/Users/greg/proj/pfunc/test/package.json'
+6 error If you need help, you may report this log at:
+6 error     <http://github.com/isaacs/npm/issues>
+6 error or email it to:
+6 error     <npm-@googlegroups.com>
+7 error System Darwin 12.3.0
+8 error command "/Users/greg/.nvm/v0.8.22/bin/node" "/Users/greg/.nvm/v0.8.22/bin/npm" "test"
+9 error cwd /Users/greg/proj/pfunc/test
+10 error node -v v0.8.22
+11 error npm -v 1.2.14
+12 error path /Users/greg/proj/pfunc/test/package.json
+13 error code ENOENT
+14 error errno 34
+15 verbose exit [ 34, true ]
